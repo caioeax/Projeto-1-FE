@@ -17,8 +17,14 @@ header {
     margin: 0;
 }
 
-.header__texto {
-    font-family: var(--fonte-paragrafo);
-    font-weight: var(--fonte-paragrafo-peso);
-    margin: 0;
+.header__boggers {
+    display: flex;
+    justify-content: flex-end;
+    text-align: center;
+    flex-direction: row;
+}
+
+.header__boggers img {
+    width: 100px;
+    height: 100px;
 }
