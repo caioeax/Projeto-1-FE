@@ -1,0 +1,31 @@
+footer {
+    text-align: center;
+    font-weight: var(--fonte-paragrafo-peso);
+    line-height: 1.5;
+    margin: 40px;
+}
+
+footer a {
+    color: inherit;
+}
+
+footer ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: transparent;
+    padding: 10px;
+}
+
+footer ul a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+    align-items: center;
+    justify-content: center;
+}
