@@ -1,5 +1,9 @@
 @import url(footer.css);
 @import url(header.css);
+@import url(nav.css);
+@import url(prof.css);
+@import url(acad.css);
+@import url(pess.css);
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
 * {
@@ -10,10 +14,27 @@
 
 :root {
     --fonte-titulo: "Rubik";
-    --fonte-titulo-peso: 500;
+    --fonte-titulo-peso: 300;
     --cor-de-fundo: #f5f4f0;
 }
 
 body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
     background-color: var(--cor-de-fundo);
 }
+
+main {
+    flex: 1;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }

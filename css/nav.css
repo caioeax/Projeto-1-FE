@@ -1,0 +1,26 @@
+nav {
+    display: flex;
+    padding: 10px;
+    align-items: center;           
+    justify-content: space-evenly;
+    width: 100%;
+    gap: 20px;
+    box-shadow: 0 4px 4px rgb(182, 182, 182);
+}
+
+nav a {
+    margin: 0 20vh;
+    color: rgb(150, 150, 150);
+}
+
+@media(max-width: 480px) {
+    nav a {
+        margin: 0 8px;
+    }
+}
+
+@media(max-width: 728px) {
+    nav a {
+        margin: 0 20px;
+    }
+}
