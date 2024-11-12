@@ -4,6 +4,7 @@
 @import url(prof.css);
 @import url(acad.css);
 @import url(pess.css);
+@import url(proj.css);
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
 * {
@@ -27,14 +28,6 @@ body {
 
 main {
     flex: 1;
+    margin-left: 20%;
+    margin-right: 20%;
 }
-
-nav ul {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  nav ul li {
-    display: inline;
-    margin-right: 20px;
-  }

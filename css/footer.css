@@ -1,4 +1,5 @@
 footer {
+    margin-top: 20px;
     text-align: center;
     font-weight: var(--fonte-paragrafo-peso);
     line-height: 1.5;
@@ -44,4 +45,17 @@ footer ul a {
     height: 20px;
     align-items: center;
     justify-content: center;
+}
+
+@media(max-width: 480px) {
+    p{
+        width: 60%;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
