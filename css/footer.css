@@ -47,6 +47,12 @@ footer ul a {
     justify-content: center;
 }
 
+span img .icon {
+    stroke: white;
+    fill: white;
+    color: white;
+}
+
 @media(max-width: 480px) {
     .footer p{
         width: 60%;

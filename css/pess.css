@@ -99,10 +99,10 @@
 }
 
 @keyframes slideshowPingPong{
-    25%   { background-image: url('../img/rhyaed.jfif'); }
-    50%  { background-image: url('../img/rhyaedchad.jpeg'); }
-    75%  { background-image: url('../img/rhyasGOAT.jpeg'); }
-    100% { background-image: url('../img/rhyaedchad2.0.jpeg'); }
+    25%   { background-image: url('../img/sportFut.webp'); }
+    50%  { background-image: url('../img/sportPing.webp'); }
+    75%  { background-image: url('../img/sportNatacao.jpg'); }
+    100% { background-image: url('../img/sportVolei.webp'); }
 }
 
 @media(max-width: 1080px) {
