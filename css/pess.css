@@ -1,3 +1,114 @@
 .pessoal {
     margin-top: 20px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+}
+
+.pessoal h2 {
+    text-align: center;
+}
+
+.hobbies {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.hobbies-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.hobby {
+    background-color: #fff;
+    margin: 25px 15px 15px 15px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 40px;
+    min-height: 300px;
+    width: 300px;
+    position: relative;
+    cursor: pointer;
+}
+
+.hobby-slideshow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    opacity: 0;
+    transition: opacity 0.1s ease;
+    padding: 20px;
+}
+
+.img__pessoal {
+    border-radius: 10px;
+    min-height: 180px;
+}
+
+.jogos-slideshow {
+    animation: slideshowJogos 6s infinite;
+    margin: 10px;
+    width: 280px;
+    height: 280px;
+}
+
+.animes-slideshow {
+    animation: slideshowAnimes 6s infinite;
+    margin: 10px;
+    width: 280px;
+    height: 280px;
+    
+}
+
+.pingpong-slideshow {
+    animation: slideshowPingPong 6s infinite;
+    margin: 10px;
+    width: 280px;
+    height: 280px;
+}
+
+.hobby:hover .hobby-slideshow {
+    opacity: 1;
+}
+
+@keyframes slideshowJogos{
+    25%   { background-image: url('../img/jogoLol.jpg'); }
+    50%  { background-image: url('../img/jogoOsu.png'); }
+    75%  { background-image: url('../img/jogoValorant.png'); }
+    100% { background-image: url('../img/jogoRocket.jpeg'); }
+}
+
+@keyframes slideshowAnimes{
+    25%   { background-image: url('../img/animeAot.webp');}
+    50%  { background-image: url('../img/animeJujutsu.webp'); }
+    75%  { background-image: url('../img/animeKoe.avif'); }
+    100% { background-image: url('../img/animeYlia.jpg'); }
+}
+
+@keyframes slideshowPingPong{
+    25%   { background-image: url('../img/rhyaed.jfif'); }
+    50%  { background-image: url('../img/rhyaedchad.jpeg'); }
+    75%  { background-image: url('../img/rhyasGOAT.jpeg'); }
+    100% { background-image: url('../img/rhyaedchad2.0.jpeg'); }
+}
+
+@media(max-width: 1080px) {
+    .hobbies-container {
+        display: flex;
+        flex: 1;
+        flex-direction: column;
+    }
 }

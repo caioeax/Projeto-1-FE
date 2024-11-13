@@ -42,12 +42,6 @@ header {
     margin: 0;
 }
 
-
-/* .header__imagem {
-    width: 100px;
-    height: 100px;
-} */
-
 @media(max-width: 480px) {
     .header__titulo {
         font-size: large;

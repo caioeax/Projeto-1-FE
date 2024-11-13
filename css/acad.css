@@ -1,3 +1,11 @@
 .academica {
     margin-top: 20px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+}
+
+.academica h2 {
+    text-align: center;
 }

@@ -25,19 +25,30 @@
     <main>
     <section id="pessoal" class="pessoal">
         <h2>Sobre mim:</h2>
-        <p>aaaaaaaaaaa</p>
-        <p>aaaaaaaaaaa</p>
-        <p>aaaaaaaaaaa</p>
-        <p>aaaaaaaaaaa</p>
-        <p>aaaaaaaaaaa</p>
-        <p>aaaaaaaaaaa</p>
-        <p>aaaaaaaaaaa</p>
-        <p>aaaaaaaaaaa</p>
-        <p>aaaaaaaaaaa</p>
-        <p>aaaaaaaaaaa</p>
-        <p>aaaaaaaaaaa</p>
-        <p>aaaaaaaaaaa</p>
-        <p>aaaaaaaaaaa</p>
+        <p>Olá! Sou Caio Eduardo, estudante de Análise e Desenvolvimento de Sistemas e apaixonado por tecnologia e inovação. 
+            Tenho experiência em desenvolvimento front-end e suporte técnico, com estágios realizados em empresas de grande 
+            porte como Intelbras e Softplan. Minha trajetória acadêmica e profissional tem me dado uma base sólida em programação, 
+            redes e metodologias de desenvolvimento.
+        </p>
+        <div id="hobbies" class="hobbies">
+            <h2>Hobbies:</h2>
+            <div class="hobbies-container">
+                <div class="hobby" id="jogos">
+                    <p>Jogos</p>
+                    <img src="../img/jogoCapa.png" alt="Jogo Capa" class="img__pessoal">
+                    <div class="hobby-slideshow jogos-slideshow"></div>
+                </div>
+                <div class="hobby" id="animes">
+                    <p>Animes</p>
+                    <img src="../img/animeCapa.jpg" alt="Anime Capa" class="img__pessoal">
+                    <div class="hobby-slideshow animes-slideshow"></div>
+                </div>
+                <div class="hobby" id="pingpong">
+                    <p>Ping Pong</p>
+                    <div class="hobby-slideshow pingpong-slideshow"></div>
+                </div>
+            </div>
+        </div>
     </section>
     <section id="academica" class="academica">
         <h2>Experiências Acadêmicas:</h2>
@@ -59,40 +70,42 @@
     </section>
     <section id="profissional" class="profissional">
         <h2>Experiências Profissionais:</h2>
-        <input type="checkbox" id="mostrar1" class="alternar-checkbox">
-        <label for="mostrar1" class="alternar-label">
-            <div class="experiencia1">
-                <img src="../img/intelbras.png" alt="Intelbras Logo">
-                <h2>Intelbras</h2>
-                <p>EAG Redes Fibra Ótica</p>
-                <p>Estágio - 1 Ano</p>
-                <span class="span">Clique para saber mais.</span>
-                <div class="detalhes">
-                    <span><strong>Detalhes do Estágio:</strong></span>
-                    <p> • Teste, validação, desenvolvimento e mapeamento de bugs em produtos de fibra óptica;</p>
-                    <p> • Elaboração de manuais utilizando HTML, CSS e JavaScript;</p>
-                    <p> • Desenvolvimento Front-end para aplicações web com ReactJS;</p>
-                    <p> • Em casos de necessidade de auxílio direto da equipe de PeD, focado principalmente no processo de customização de firmwares;</p>
+        <div class="experiencia-container">
+            <input type="checkbox" id="mostrar1" class="alternar-checkbox">
+            <label for="mostrar1" class="alternar-label">
+                <div class="experiencia1">
+                    <img src="../img/intelbras.png" alt="Intelbras Logo">
+                    <h2>Intelbras</h2>
+                    <p>EAG Redes Fibra Ótica</p>
+                    <p>Estágio - 1 Ano</p>
+                    <span class="span">Clique para saber mais.</span>
+                    <div class="detalhes">
+                        <span><strong>Detalhes do Estágio:</strong></span>
+                        <p> • Teste, validação, desenvolvimento e mapeamento de bugs em produtos de fibra óptica;</p>
+                        <p> • Elaboração de manuais utilizando HTML, CSS e JavaScript;</p>
+                        <p> • Desenvolvimento Front-end para aplicações web com ReactJS;</p>
+                        <p> • Em casos de necessidade de auxílio direto da equipe de PeD, focado principalmente no processo de customização de firmwares;</p>
+                    </div>
                 </div>
-            </div>
-        </label>
-        <input type="checkbox" id="mostrar2" class="alternar-checkbox">
-        <label for="mostrar2" class="alternar-label">
-            <div class="experiencia2">
-                <img src="../img/softplan.png" alt="Softplan Logo">
-                <h2>Softplan</h2>
-                <p>Suporte técnico - Redes</p>
-                <p>Estágio - 6 meses</p>
-                <span class="span">Clique para saber mais.</span>
-                <div class="detalhes2">
-                    <span><strong>Detalhes do Estágio:</strong></span>
-                    <p> • Monitoramento e análise de redes para detecção e resolução de falhas de conectividade e desempenho em redes corporativas;</p>
-                    <p> • Documentação de processos e configurações de rede, com elaboração de guias técnicos e instruções usando ferramentas como Visio para diagramas e Notion para documentação colaborativa;</p>
-                    <p> • Suporte técnico de primeiro e segundo nível para atendimento a incidentes de rede, incluindo configuração de roteadores, switches e pontos de acesso;</p>
-                    <p> • Assistência direta à equipe de problemas críticos e na implementação de políticas de segurança de rede para prevenção de incidentes.</p>
+            </label>
+            <input type="checkbox" id="mostrar2" class="alternar-checkbox">
+            <label for="mostrar2" class="alternar-label">
+                <div class="experiencia2">
+                    <img src="../img/softplan.png" alt="Softplan Logo">
+                    <h2>Softplan</h2>
+                    <p>Suporte técnico - Redes</p>
+                    <p>Estágio - 6 meses</p>
+                    <span class="span">Clique para saber mais.</span>
+                    <div class="detalhes2">
+                        <span><strong>Detalhes do Estágio:</strong></span>
+                        <p> • Monitoramento e análise de redes para detecção e resolução de falhas de conectividade e desempenho em redes corporativas;</p>
+                        <p> • Documentação de processos e configurações de rede, com elaboração de guias técnicos e instruções usando ferramentas como Visio para diagramas e Notion para documentação colaborativa;</p>
+                        <p class="infoAdd"> • Suporte técnico de primeiro e segundo nível para atendimento a incidentes de rede, incluindo configuração de roteadores, switches e pontos de acesso;</p>
+                        <p class="infoAdd"> • Assistência direta à equipe de problemas críticos e na implementação de políticas de segurança de rede para prevenção de incidentes.</p>
+                    </div>
                 </div>
-            </div>
-        </label>
+            </label>
+        </div>
     </section>
     <section id="projetos" class="projetos">
         <h2>Projetos Fodas</h2>
@@ -103,7 +116,7 @@
                 <p><strong>The Conundrum</strong> é um projeto em que eu desenvolvi como Projeto Final no curso integrado de telecomunicações onde eu tinha que fazer um jogo co-op em dupla para a resolução de puzzles. O jogo conta com VoIP, 2 Finais e Easter Eggs. Feito em JS utilizando o framework Phaser3.</p>
                 <p>(Projeto produzido para a feira-de-jogos IFSC-SJ)</p>
                 <div class="video-container">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/HlYTKuED--M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe src="https://www.youtube.com/embed/HlYTKuED--M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
             </div>
             <div class="projeto2">
@@ -112,7 +125,7 @@
                 <p><strong>Project 1</strong> é um projeto em desenvenvolvimento sobre um jogo RNG, jogo totalmente multiplayer hospedado no roblox, consiste em um jogo em que você tem que ter a sorte de conseguir artefatos raros. feito em Lua, utilizando a interface gráfica do Roblox Studio. (Atualmente em hiato por conta das obrigações curriculares.)</p>
                 <p>(Projeto feito em cooperação com alguns amigos)</p>
                 <div class="video-container">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/HlYTKuED--M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe src="https://www.youtube.com/embed/HlYTKuED--M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
             </div>
         </div>
