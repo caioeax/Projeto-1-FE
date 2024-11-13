@@ -1,4 +1,8 @@
 .projetos {
+    text-align: center;
+}
+
+.projetos-container {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -25,4 +29,13 @@
 
 h2 {
     margin-top: 20px
+}
+
+@media(max-width: 1350px) {
+    .projetos-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
 }
