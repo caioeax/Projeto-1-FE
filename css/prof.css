@@ -80,6 +80,7 @@
 
 .experiencia2 img {
     border-radius: 15px;
+    max-height: 65px;
 }
 
 .experiencia2:hover {
@@ -114,6 +115,10 @@
     flex-direction: column;
 }
 
-label span {
+label .span {
+    margin-top: 40px;
+}
+
+label div span {
     text-align: center;
 }
