@@ -23,15 +23,14 @@ body {
     margin: 0;
     display: flex;
     flex-direction: column;
-    background-color: var(--cor-de-fundo);
+    background-color: var(--cor-de-fundo); /* usando a variável criada ali em cima. */
 }
 
-main {
-    flex: 1;
+main { /* botar uma margin em toda a página, excessão do header */
     margin-left: 20%;
     margin-right: 20%;
 }
 
-h2 {
+h2 { /* mudar as cores dos "subtítulos", das IDs */
     color: #333;
 }
