@@ -42,4 +42,5 @@ h5 {
     font-family: var(--fonte-titulo);
     font-weight: var(--fonte-titulo-peso);
     color: #333;
+    background-color: black;
 }
