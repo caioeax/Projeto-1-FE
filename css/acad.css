@@ -1,11 +1,64 @@
 .academica {
-    margin-top: 20px;
+    margin-top: 50px;
     gap: 20px;
     display: flex;
     flex-direction: column;
-    text-align: justify;
 }
 
 .academica h2 {
     text-align: center;
+}
+
+.acad-container {
+    /* usado apenas para o align-items: center, no media 1080 */
+}
+
+.curso {
+    width: 45%;
+    float: left;
+    margin: 10px 10px 10px 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+    position: relative; /* para o ::before ficar antes do .curso */
+    min-height: 300px;
+    min-width: 300px;
+    text-align: justify;
+}
+
+.curso img {
+    float: left;
+    margin-right: 15px;
+    width: 75px;
+    height: 75px;
+    border-radius: 25%;
+    object-fit: cover;
+    background-color: white;
+    margin-bottom: 10px;
+}
+
+.curso::before {
+    content: "•"; /* o que vai ficar antes do .curso*/
+    color: #8100cc;
+    font-size: 24px;
+    position: absolute; /* para o ::before ficar antes do .curso */
+    left: -15px;
+    top: 10px;
+}
+
+@media(max-width: 1080px) {
+    .acad-container {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .curso {
+        text-align: left;
+    }
+}
+
+@media(max-width: 1280px) {
+    .curso {
+        float: none;
+    }
 }

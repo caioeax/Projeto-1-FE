@@ -84,6 +84,16 @@
     opacity: 1;
 }
 
+.informacoes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.informacoes p {
+    text-align: center;
+}
+
 @keyframes slideshowJogos{
     25%   { background-image: url('../img/jogoLol.jpg'); }
     50%  { background-image: url('../img/jogoOsu.png'); }
@@ -110,5 +120,16 @@
         display: flex;
         flex: 1;
         flex-direction: column;
+    }
+
+    .informacoes {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .informacoes p {
+        text-align: left;
+        margin-top: 10px;
     }
 }

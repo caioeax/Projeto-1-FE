@@ -1,11 +1,10 @@
-.alternar-checkbox {
-    display: none;
+.alternar-checkbox { /* Ideia sugerida pelo professor em aula. */
+    display: none; /* esconder checkbox que fica em cima do "container" que aparece. */
 }
 
 .profissional {
+    margin-top: 50px;
     text-align: center;
-    display: flex;
-    flex-direction: column;
 }
 
 .experiencia-container {
@@ -21,13 +20,11 @@
     border-radius: 10px;
     text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s, box-shadow 0.3s;
-    display: flex;
-    flex-direction: column;
+    transition: transform 0.3s, box-shadow 0.3s; /* tempo pra aparecer */
     gap: 10px;
-    min-height: 300px;
+    min-height: 300px; /* não quebrar em telas menores, colocado 300px para suportar até 400px (celular) */
     width: 300px;
-    position: relative;
+    position: relative; /* sem isso os hovers quebram, parece que eles são jogados para fora da tela */
 }
 
 .experiencia1 img, .experiencia2 img{
@@ -35,7 +32,7 @@
     max-height: 65px;
 }
 
-.experiencia1:hover, .experiencia2:hover {
+.experiencia1:hover, .experiencia2:hover { /* hover para dar "zoom" */
     transform: translateY(-5px) scale(1.03);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
     background-color: #f9f9f9;
@@ -63,7 +60,7 @@
 }
 
 .alternar-checkbox:checked + .alternar-label .experiencia2 .detalhes2, .alternar-checkbox:checked + .alternar-label .experiencia1 .detalhes {
-    display: flex;
+    display: flex; /* tirar do display: none para mostrar na tela */
     flex-direction: column;
 }
 
@@ -77,30 +74,16 @@ label div span {
 
 @media(max-width: 1080px) {
     .experiencia-container {
-        align-items: center;
+        align-items: center; /* centralizar em telas pequenas (celular) */
     }
 
     .detalhes, .detalhes2 {
-        display: none;
-        width: 100%;
-        top: 0;
+        width: 100%; /* ocupar o espaço inteiro da div e não sair dela*/
+        top: 0; /* as 4 linhas são para fazer ela aparecer em cima da div por conta da position: absolute*/
         left: 0;
         right: 0;
         margin-left: 0;
-        background-color: #fff;
-        border: 1px solid #ccc;
-        border-radius: 10px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        padding: 20px;
-        font-size: 14px;
-        line-height: 1.5;
-        color: #333;
-        text-align: left;
-    }
-
-    .alternar-checkbox:checked + .alternar-label .experiencia1 .detalhes, .alternar-checkbox:checked + .alternar-label .experiencia2 .detalhes2 {
-        display: flex;
-        flex-direction: column;
+        z-index: 1;
     }
 
     .experiencia2 {

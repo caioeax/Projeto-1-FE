@@ -1,5 +1,5 @@
 footer {
-    margin-top: 20px;
+    margin-top: 50px;
     text-align: center;
     font-weight: var(--fonte-paragrafo-peso);
     line-height: 1.5;
@@ -10,7 +10,6 @@ footer {
 
 footer a {
     color: rgb(150, 150, 150);
-    align-content: center;
     text-decoration: none;
 }
 
@@ -18,23 +17,8 @@ footer p {
     color: rgb(150, 150, 150);
 }
 
-footer ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    color: transparent;
-    padding: 10px;
-}
-
-footer ul a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .footer__contato {
-    display: inline-flex;
+    display: inline-flex; /* serve pra centralizar a imagem com o texto em seguida, só consegui dessa forma depois de tentar todos os displays */
     align-items: center;
     gap: 5px;
     margin: 0 10px;
@@ -47,11 +31,11 @@ footer ul a {
     justify-content: center;
 }
 
-span img .icon {
+/* span img .icon {
     stroke: white;
     fill: white;
     color: white;
-}
+} Não consegui mudar a cor do .icon*/
 
 @media(max-width: 480px) {
     .footer p{

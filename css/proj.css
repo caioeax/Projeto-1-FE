@@ -1,24 +1,15 @@
 .projetos {
+    margin-top: 50px;
     text-align: center;
 }
 
 .projetos-container {
     display: flex;
-    flex-direction: row;
     align-items: center;
     gap: 20px;
 }
 
-.projeto1 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: justify;
-    margin-top: 20px;
-    gap: 20px;
-}
-
-.projeto2 {
+.projeto1, .projeto2 {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -52,21 +43,13 @@ h2 {
 
 @media(max-width: 700px) {
     .video-container iframe {
-        width: 300px;
+        width: 300px; /* diminui para caber nas telas menores */
         height: 215px;
     }
 }
 
 @media(max-width: 530px) {
-    .video-container iframe {
-        width: 200px;
-        height: 165px;
-    }
-
     .projeto2 {
-        display: flex;
-        flex-direction: column;
         margin-top: 20px;
-        gap: 20px;
     }
 }
