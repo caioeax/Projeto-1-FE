@@ -32,5 +32,7 @@ main { /* botar uma margin em toda a página, excessão do header */
 }
 
 h2 { /* mudar as cores dos "subtítulos", das IDs */
+    font-family: var(--fonte-titulo);
+    font-weight: var(--fonte-titulo-peso);
     color: #333;
 }

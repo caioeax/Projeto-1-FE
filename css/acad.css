@@ -61,4 +61,8 @@
     .curso {
         float: none;
     }
+
+    .curso::before {
+        content: ""
+    }
 }

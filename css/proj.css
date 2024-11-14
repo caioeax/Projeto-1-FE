@@ -6,6 +6,7 @@
 .projetos-container {
     display: flex;
     align-items: center;
+    flex-direction: row;
     gap: 20px;
 }
 
