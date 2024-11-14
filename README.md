@@ -3,10 +3,16 @@
 ## Conceitos aprendidos em aula usados no site:
 
 Semântica -> Usado em quase todos os elementos presentes no texto.
+
 Divisoes -> Utilizado divisões apropriadas para cada assunto, não apenas div.
+
 Elementos estruturais -> ul - presente no nav, br e strong - presente na experiência acadêmica, h1, h2, h3 - presente em todos as sections, no footer e no header. hr - presente no header,
-Elementos genéricos -> span - presente na experiência profissional, ID - presente em cada section para funcionar com o href do nav, class - presente em quase todos os elementos para modificá-los no css, a - utilizado no footer e no nav com caminhos diferentes, img - várias imagens pelo site, assim como um slideshow de 4 imagens que se alteram dentro de 4 segundos no hobby.
+
+Elementos genéricos -> span - presente na experiência profissional, ID - presente em cada section para funcionar com o href do nav, class - presente em quase todos os elementos para modificá-los no css, a - utilizado no footer e no nav com caminhos diferentes, img - várias imagens pelo site, assim como um slideshow de 4 imagens que se alteram dentro de 4 segundos no 
+hobby.
+
 Mídia incorporada -> utilizado no Projeto, mostrando uma gameplay dos 2 projetos.
+
 Elementos formulário -> utilizado input checkbox na parte de experiência profissional para ser como se fosse um click, tirando o hidden quando desse checked na checkbox. 
 
 CSS -> irei citar algumas propriedades CSS utilizadas, font-size, font-weight, color, background-image, background-color, margin, padding, text-align, width, height, display, position, top, right, bottom, left, overflow, border-radius, box-shadow, text-decoration.
